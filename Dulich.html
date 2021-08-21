@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trang Du lịch</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <!-- link css -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="dulich.css">
+        <!-- link icon -->
+        <script src="https://kit.fontawesome.com/eac26fd0b5.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="web_Tintuc">
+        <!-- Header Navbar -->
+        <div class="header">
+            <div class="header__top">
+                <nav class="header__navbar-one">
+                    <!-- Navbar logo icon -->
+                    <div class="hidden__card">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="left">
+                        <h3 class="navbar-item" title="Việt Báo - Trang tin tức Nhóm 13 thực hiện">
+                            <a href="..." class="navbar__logo">BViET</a>
+                        </h3>
+                        <li class="navbar-item-small">Thứ 6, 18/6/2021</li>
+                    </div>
+                    <div class="right">
+                        <li class="navbar-item">
+                            <button class="item__icon-clock" title="Mới nhất">
+                                <i class="far fa-clock"></i>
+                                <a href="..." class="navbar__link0">Mới nhất</a>
+                            </button>
+                        </li>
+                        <li class="navbar-item">
+                            <button class="item__icon-search">
+                                <div class="icon__search">
+                                    <input type="text" class="navbar__search-input" placeholder="Tìm kiếm">
+                                    <i class="header__cart-icon fas fa-search" title="Tìm kiếm"></i>
+                                </div>
+                            </button>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="Login.html" title="Đăng nhập" class="item__icon-login">
+                                <i class="fas fa-user"></i>
+                            </a>
+                        </li>
+                        <li title="Đăng nhập" class="navbar-item-login">
+                            <a href="Login.html" class="navbar__link1">Đăng nhập</a>
+                        </li>
+                    </div>
+                </nav>
+            </div>
+                
+            <!-- Navbar layout -->
+            <nav class="header__navbar-two">
+                <ul class="header__navbar-list-two">
+                    <p title="Trang chủ" class="header__navbar-item">
+                        <a href="index.html" class="navbar__link2">
+                            <i class="fas fa-home"></i>
+                        </a>
+                    </p>
+                    <div title="Thời sự" class="header__navbar-item">
+                        <a href="Thoisu.html" class="navbar__link3">Thời sự</a>
+                        <ul class="header__content">
+                            <li class="header__content-list">
+                                <a href="Thoisu__small.html" class="header__content-list-color" title="Chính trị">
+                                    <span>Chính trị</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Đại hội XIII">
+                                    <span>Đại hội XIII</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Giao thông">
+                                    <span>Giao thông</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Mekong">
+                                    <span>Mekong</span>
+                                </a> 
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Dân sinh">
+                                    <span>Dân sinh</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <li title="Giải trí" class="header__navbar-item">
+                        <a href="Giaitri.html" class="navbar__link4">Giải trí</a>
+                        <ul class="header__content">
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Giới sao">
+                                    <span>Giới sao</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Video">
+                                    <span>Video</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Phim">
+                                    <span>Phim truyện</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Nhạc">
+                                    <span>Nhạc</span>
+                                </a> 
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Thời trang">
+                                    <span>Thời trang</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li title="Sức khoẻ" class="header__navbar-item">
+                        <a href="..." class="navbar__link5">Sức khoẻ</a>
+                        <ul class="header__content">
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Tin tức">
+                                    <span>Tin tức</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Tư vấn">
+                                    <span>Tư vấn</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Dinh dưỡng">
+                                    <span>Dinh dưỡng</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Khỏe đẹp">
+                                    <span>Khỏe đẹp</span>
+                                </a> 
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Các bệnh">
+                                    <span>Các bệnh</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li title="Giáo dục" class="header__navbar-item">
+                        <a href="..." class="navbar__link6">Giáo dục</a>
+                        <ul class="header__content">
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Tuyển sinh">
+                                    <span>Tuyển sinh</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Điểm thi">
+                                    <span>Điểm thi</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Tra cứu">
+                                    <span>Tra cứu</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Du học">
+                                    <span>Du học</span>
+                                </a> 
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Học Tiếng Anh">
+                                    <span>Học Tiếng Anh</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li title="Khoa học" class="header__navbar-item">
+                        <a href="..." class="navbar__link8">Khoa học</a>
+                        <ul class="header__content">
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Phát minh">
+                                    <span>Phát minh</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Ứng dụng">
+                                    <span>Ứng dụng</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Thế giới tự nhiên">
+                                    <span>Thế giới tự nhiên</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Khoa học công nghệ">
+                                    <span>Khoa học công nghệ</span>
+                                </a> 
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Cac lĩnh vực khoa học">
+                                    <span>Các lĩnh vực khoa học</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li title="Du lịch" class="header__navbar-item">
+                        <a href="Dulich.html" class="navbar__link9">Du lịch</a>
+                        <ul class="header__content">
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Điểm đến">
+                                    <span>Điểm đến</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Thủ đô Roma, Ý">
+                                    <span>Thủ đô Roma, Ý</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Đà Nẵng Resort">
+                                    <span>Đà Nẵng Resort</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Biển California">
+                                    <span>Biển California</span>
+                                </a> 
+                                </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Điểm đến nổi tiếng">
+                                    <span>Điểm đến nổi tiếng</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li title="Kinh doanh" class="header__navbar-item">
+                        <a href="..." class="navbar__link10">Kinh doanh</a>
+                        <ul class="header__content">
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Doanh nghiệp">
+                                    <span>Doanh nghiệp</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Chứng khoán">
+                                    <span>Chứng khoán</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Bất động sản">
+                                    <span>Bất động sản</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Vĩ mô">
+                                    <span>Vĩ mô</span>
+                                </a> 
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Bảo hiểm">
+                                    <span>Bảo hiểm</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li title="Thể thao" class="header__navbar-item">
+                        <a href="Thethao.html" class="navbar__link11">Thể thao</a>
+                        <ul class="header__content">
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Bóng đá">
+                                    <span>Bóng đá</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Champions league">
+                                    <span>Champions league</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Euro 2021">
+                                    <span>Euro 2021</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Copa America 2021">
+                                    <span>Copa America 2021</span>
+                                </a> 
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Bóng rổ NBA">
+                                    <span>Bóng rổ NBA</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li title="Hài" class="header__navbar-item">
+                        <a href="..." class="navbar__link7">Hài</a>
+                        <ul class="header__content">
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Chuyện cười">
+                                    <span>Chuyện cười</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Đố vui">
+                                    <span>Đố vui</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Chuyện lạ">
+                                    <span>Chuyện lạ</span>
+                                </a>
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Tuồng kịch">
+                                    <span>Tuồng kịch</span>
+                                </a> 
+                            </li>
+                            <li class="header__content-list">
+                                <a href="..." class="header__content-list-color" title="Danh hài">
+                                    <span>Danh hài</span>
+                                </a> 
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="..." class="navbar__link12">Tất cả</a>
+                    </li>
+                    <p class="header__navbar-item">
+                        <a href="..." class="navbar__link13">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </p>
+                </ul>
+            </nav>
+        </div>
+       <!-- Containers -->
+        <div class="containers">
+            <div class="containers__big">
+                <div class="containers__title__big">
+                    <div class="containers__title">
+                        <a href="..." class="content__title" title="Du lịch">Du lịch</a>
+                        <a href="..." class="navbar__content">
+                            <i class="far fa-calendar-alt icon__calendar"></i>
+                            Xem theo ngày
+                        </a>
+                        <button class="navbar__content-search">
+                            <div class="navbar__content__icon-search">
+                                <input type="text" class="navbar__input-search" placeholder="Tìm kiếm trong chuyên mục">
+                                <i class="fas fa-search navbar__icon-search" title="Tìm kiếm"></i>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="containers__title-small">
+                        <a href="..." class="content__small" title="Điểm đến">Điểm đến</a>
+                        <a href="..." class="content__small" title="Thủ đô Roma, Ý">Thủ đô Roma, Ý</a>
+                        <a href="..." class="content__small" title="Đà Nẵng Resort">Đà Nẵng Resort</a>
+                        <a href="..." class="content__small" title="Copa America 2021">Biển California</a>
+                        <a href="..." class="content__small" title="Điểm đến nổi tiếng">Điểm đến nổi tiếng</a>
+                    </div>
+                </div>
+                <div class="containers__conten__image-big">
+                    <div class="class__support">
+                        <div class="containers__image-content">
+                            <a href="..." class="containers__image">
+                                <img class="container__image--ten" src="img/Image53.jpg" alt="Ảnh du lịch" title="Những điểm tiêm vaccine Covid-19 độc đáo trên thế giới">
+                            </a>
+                            <div class="containers__content">
+                                <a href="..." class="containers__title__one-small" title="Những điểm tiêm vaccine Covid-19 độc đáo trên thế giới">Những điểm tiêm vaccine Covid-19 độc đáo trên thế giới</a>
+                                <p class="containers__content__one-small" title="Những điểm tiêm vaccine Covid-19 độc đáo trên thế giới">Một số quốc gia cho rằng những địa điểm có giá trị văn hoá và lịch sử sẽ thu hút người dân đến tiêm vaccine, đồng thời thúc đẩy quảng bá du lịch.</p>
+                                <div class="containers__content__two-small">
+                                    <p class="content__smallsmall">2h trước</p>
+                                    <p class="content__smallsmall-one">Du lịch</p>
+                                    <a href="...">
+                                        <i class="fas fa-comment-alt icon__coment-pageTS"></i>
+                                    </a>
+                                    <p class="content__smallsmall-two">35</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="containers__title-small-one">
+                            <div class="title-small-one">
+                                <a href="..." class="content__of-title-one" title="4 cây cầu có thiết kế đặc biệt của Đà Nẵng">4 cây cầu có thiết kế đặc biệt của Đà Nẵng</a>
+                                <p class="content__small__of-title-one" title="4 cây cầu có thiết kế đặc biệt của Đà Nẵng">Kiến trúc của cầu Trần Thị Lý mềm mại, nữ tính, nhìn từ xa, hệ dây văng và thân cầu gợi nên hình ảnh một con thuyền với cánh buồm đỏ thắm.</p>
+                                <p class="content__small__of-title-one" title="4 cây cầu có thiết kế đặc biệt của Đà Nẵng">Dòng sông Hàn chảy qua Đà Nẵng và đổ ra biển ở vịnh Đà Nẵng chia thành phố thành bờ đông và tây.</p>
+                                <p class="content__small__of-title-one" title="4 cây cầu có thiết kế đặc biệt của Đà Nẵng"></p>
+                                <div class="containers__content__two-small">
+                                    <p class="content__smallsmall-one">Du lịch</p>
+                                    <a href="...">
+                                        <i class="fas fa-comment-alt icon__coment-pageTS"></i>
+                                    </a>
+                                    <p class="content__smallsmall-two">430</p>
+                                </div>
+                            </div>
+                            <div class="title-small-two">
+                                <a href="..." class="content__of-title-two" title="Lẩu nấu sẵn ở Hà Nội mùa dịch">Lẩu nấu sẵn ở Hà Nội mùa dịch</a>
+                                <p class="content__small__of-title-two" title="Lẩu nấu sẵn ở Hà Nội mùa dịch">Bữa lẩu mini được nấu sẵn và giao tận nhà, có thể thưởng thức luôn, đang thu hút nhiều người Hà Nội những ngày gần đây.</p>
+                                <p class="content__small__of-title-two" title="Lẩu nấu sẵn ở Hà Nội mùa dịch">Những ngày gần đây, trên các diễn đàn xuất hiện nhiều video giới thiệu, đánh giá bữa lẩu một người giao tận nhà, thu hút sự quan tâm và tạo ra trào lưu, đặc biệt trong giới trẻ Hà Nội.</p>
+                                <div class="containers__content__two-small">
+                                    <p class="content__smallsmall-one">Du lịch</p>
+                                    <a href="...">
+                                        <i class="fas fa-comment-alt icon__coment-pageTS"></i>
+                                    </a>
+                                    <p class="content__smallsmall-two">78</p>
+                                </div>
+                            </div>
+                            <div class="title-small-three">
+                                <a href="..." class="content__of-title-three" title="Du lịch thế giới tiếp tục giảm sâu">Du lịch thế giới tiếp tục giảm sâu</a>
+                                <p class="content__small__of-title-three" title="Du lịch thế giới tiếp tục giảm sâu">Cuộc khủng hoảng lớn nhất trong lịch sử ngành du lịch bước sang năm thứ 2 và ngày càng trầm trọng, khi lượng khách quốc tế đã giảm tới 85%.</p>
+                                <p class="content__small__of-title-three" title="Du lịch thế giới tiếp tục giảm sâu">Theo dữ liệu mới nhất của Tổ chức Du lịch Thế giới (UNWTO), 5 tháng đầu năm 2021, các điểm đến trên toàn cầu tiếp tục ghi nhận sự sụt giảm đáng kể về lượng khách quốc tế.</p>
+                                <div class="containers__content__two-small">
+                                    <p class="content__smallsmall-one">Du lịch</p>
+                                    <a href="...">
+                                        <i class="fas fa-comment-alt icon__coment-pageTS"></i>
+                                    </a>
+                                    <p class="content__smallsmall-two">147</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container__image-advertisement">
+                        <img class="image-advertisement" src="img/Image22.png" alt="Hình ảnh Quảng cáo">
+                    </div>
+                </div>
+                <div class="containers__theme">
+                    <p class="containers__theme__title-small">Chủ đề</p>
+                    <a href="..." class="containers__theme__content-one" title="Các quốc gia mở cửa du lịch giữa Covid-19">Các quốc gia mở cửa du lịch giữa Covid-19</a>
+                    <a href="..." class="containers__theme__content-one" title="Thí điểm đón khách quốc tế đến Phú Quốc">Thí điểm đón khách quốc tế đến Phú Quốc</a>
+                    <a href="..." class="containers__theme__content-one" title="Du lịch trong thời Covid-19">Du lịch trong thời Covid-19</a>
+                </div>
+                <div class="containers__small-folder">
+                    <div class="folder__small-one">
+                        <a class="link__one" href="..." title="Du khách cách ly 'tẩu thoát' bằng ga trải giường">
+                            <img src="img/Image54.jpg" alt="Ảnh Du lịch">
+                            <p class="content__small-folder">Du khách cách ly 'tẩu thoát' bằng ga trải giường</p>
+                        </a> 
+                    </div>
+                    <div class="folder__small-two">
+                        <a class="link__two" href="..." title="Thác 3 tầng ở huyện miền núi Thừa Thiên Huế">
+                            <img src="img/Image55.jpg" alt="Ảnh Du lịch">
+                            <p class="content__small-folder">Thác 3 tầng ở huyện miền núi Thừa Thiên Huế</p>
+                        </a>
+                    </div>
+                    <div class="folder__small-three">
+                        <a class="link__three" href="..." title="Gordon Ramsay ăn cá hồi muối bốc mùi thối">
+                            <img src="img/Image56.png" alt="Ảnh Du lịch">
+                            <p class="content__small-folder">Gordon Ramsay ăn cá hồi muối bốc mùi thối</p>
+                        </a>
+                    </div>
+                    <div class="folder__small-four">
+                        <a class="link__four" href="..."  title="Tuscany - vùng đất làm say lòng bao du khách">
+                            <img src="img/Image57.jpg" alt="Ảnh du lịch ">
+                            <p class="content__small-folder">Tuscany - vùng đất làm say lòng bao du khách</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="containers___content__between">
+                    <div class="content__between-big">
+                        <div class="content__between-one">
+                            <div class="content__betweeen-small-one">
+                                <a href="..." class="content__between-title-one" title="Phi công làm gì để đỡ buồn chán khi bay các chặng dài?">Phi công làm gì để đỡ buồn chán khi bay các chặng dài?</a>
+                                <p class="content__of-title" title="Phi công làm gì để đỡ buồn chán khi bay các chặng dài?">Tôi thắc mắc không biết các phi công đã làm gì khi bay các chặng dài hơn chục tiếng đồng hồ. Tôi rất thắc mắc không biết các tiếp viên, phi công trong những chặng bay dài như thế này, họ làm gì để "giết thời gian".</p>
+                            </div>
+                            <div class="content__between-image-one" title="Phi công làm gì để đỡ buồn chán khi bay các chặng dài?">
+                                <img class="image__support" src="img/Image58.png" alt="Ảnh du lịch">
+                            </div>
+                            <p class="content__image__advertisement">
+                                <a href="..." class="image__advertisement-one">
+                                    <img class="advertisement-one" src="img/Image18.png" alt="Ảnh Quảng cáo" title="Bầu cử đại biểu Quốc hội khóa XV">
+                                </a>
+                                <a href="..." class="image__advertisement-two">
+                                    <img class="advertisement-two" src="img/Image19.jpg" alt="Ảnh Quảng cáo" title="Tiếp sức cho tâm dịch">
+                                </a>
+                            </p>
+                            <div class="link__share__icon">
+                                <button class="circle__facebook">
+                                    <a class="icon__facebook" href="...">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </button>
+                                <button class="circle__twitter">
+                                    <a class="icon__twitter" href="...">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </button>
+                                <button class="circle__arrow-left">
+                                    <a class="icon__arrow-left" href="...">
+                                        <i class="fas fa-arrow-left"></i>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content__between-two">
+                            <div class="content__betweeen-small-two">
+                                <a href="..." class="content__between-title-two" title="Khách tham quan tháp Eiffel cần hộ chiếu vaccine">Khách tham quan tháp Eiffel cần hộ chiếu vaccine</a>
+                                <p class="content__of-title" title="Khách tham quan tháp Eiffel cần hộ chiếu vaccine">Du khách đến Pháp thăm tháp Eiffel, các bảo tàng, rạp chiếu phim... đều phải quét mã QR trên hộ chiếu vaccine chứng minh đã tiêm chủng.</p>
+                            </div>
+                            <div class="content__between-image-two" title="Khách tham quan tháp Eiffel cần hộ chiếu vaccine">
+                                <img class="image__support" src="img/Image59.jpg" alt="Ảnh Du lịch">
+                            </div>
+                            <div class="content__between__content-small">
+                                <p class="content-small" title="Nhận sự lãnh đạo của cấp cao">Nhận sự lãnh đạo của cấp cao</p>
+                                <p class="content-small-one">Danh sách Ủy viên Trung ương khóa XIII</p>
+                            </div>
+                        </div>
+                        <div class="content__between-three">
+                            <div class="content__betweeen-small-three">
+                                <a href="..." class="content__between-title-three" title="Bạn sẽ ăn món nào đầu tiên sau khi TP HCM hết giãn cách?">Bạn sẽ ăn món nào đầu tiên sau khi TP HCM hết giãn cách?</a>
+                                <p class="content__of-title" title="Bạn sẽ ăn món nào đầu tiên sau khi TP HCM hết giãn cách?">Tôi sẽ chọn ăn hủ tiếu nam vang, còn bạn tôi muốn ăn bánh tráng trộn. Khi thành phố đã kiểm soát được dịch, và nhịp sống trở lại như trước, các bạn muốn ăn món nào đầu tiên.</p>
+                            </div>
+                            <div class="content__between-image-three" title="Bạn sẽ ăn món nào đầu tiên sau khi TP HCM hết giãn cách?">
+                                <img class="image__support" src="img/Image60.jpg" alt="Ảnh Copa America">
+                            </div>
+                            <div class="content__between__content-small-one">
+                                <p class="content-small-two">Bộ Chính trị, Ban bí thư khóa XIII</p>
+                                <p class="content-small-three">Danh sách Bí thư các tỉnh/thành nhiệm kỳ 2020-2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="containers__content-expanded">
+                    <h3 class="conten-expanded-title">Ảnh</h3>
+                    <div class="image__of__content-expanded">
+                        <a class="content__between-image-four" href="...">
+                            <img class="image-expanded" src="img/Image61.jpg" alt="Ảnh UEFA" title="10 bức ảnh trời đêm đẹp nhất thế giới">
+                        </a>
+                        <div class="content-expanded">
+                            <a href="..." class="content-expanded-one" title="10 bức ảnh trời đêm đẹp nhất thế giới">10 bức ảnh trời đêm đẹp nhất thế giới</a>
+                            <p class="content__of-expanded-one" title="10 bức ảnh trời đêm đẹp nhất thế giới">Các ảnh thể hiện sự rộng lớn và kỳ diệu của dải ngân hà được chọn vào vòng cuối giải thưởng Nhiếp ảnh thiên văn của năm 2021.</p>
+                            <p class="content__of-expanded-one" title="10 bức ảnh trời đêm đẹp nhất thế giới">Tác phẩm dải ngân hà trên bầu trời nước Pháp của tác giả Anh, Benjamin Barakat, chụp tại château in Chambord, lâu đài lớn nhất thung lũng Loire. Bức ảnh lấy được cả khung cảnh trời đêm và lâu đài phản chiếu trên mặt hồ thật huyền diệu này tốn rất nhiều công sức vì phải canh ánh sáng từ phía lâu đài cùng với thời tiết.</p>
+                            <div class="containers__content__two-small">
+                                <a href="...">
+                                    <i class="fas fa-comment-alt icon__coment-pageTS"></i>
+                                </a>
+                                <p class="content__smallsmall-two">405</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Switch bar -->
+        <ul class="pagination containers-three__pagination">
+            <li class="pagination-item">
+                <a href="" class="paginnation-item__link">
+                    <i class="paginnation-item__icon fas fa-chevron-left"></i>
+                </a>
+            </li>
+            <li class="pagination-item pagination-item--active">
+                <a href="" class="paginnation-item__link">1</a>
+            </li>
+            <li class="pagination-item pagination-item--active--one">
+                <a href="" class="paginnation-item__link--support">2</a>
+            </li>
+            <li class="pagination-item pagination-item--active--one">
+                <a href="" class="paginnation-item__link--support">3</a>
+            </li>
+            <li class="pagination-item pagination-item--active--one">
+                <a href="" class="paginnation-item__link--support">4</a>
+            </li>
+            <li class="pagination-item">
+                <a href="" class="paginnation-item__link--support">
+                    <i class="paginnation-item__icon fas fa-chevron-right"></i>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Menu Footer one -->
+            <div class="footer__menu-one">
+                <ul class="footer__menu-content">
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Trang chủ">Trang chủ</a>
+                    </li>
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Mới nhất">Mới nhất</a>
+                    </li>
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Xem nhiều">Xem nhiều</a>
+                    </li>
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Tin nóng">Tin nóng</a>
+                    </li>
+                </ul>
+                <ul class="footer__menu-content">
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Thời sự">Thời sự</a>
+                    </li>
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Góc nhìn">Góc nhìn</a>
+                    </li>
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Thế giới">Thế giới</a>
+                    </li>
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Kinh doanh">Kinh doanh</a>
+                    </li>
+                </ul>
+                <ul class="footer__menu-content">
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Thể thao">Thể thao</a>
+                    </li>
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Giải trí">Giải trí</a>
+                    </li>
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Pháp luật">Pháp luật</a>
+                    </li>
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Giáo dục">Giáo dục</a>
+                    </li>
+                </ul>
+                <ul class="footer__menu-content">
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Sức khỏe">Sức khỏe</a>
+                    </li>
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Đời sống">Đời sống</a>
+                    </li>
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Du lịch">Du lịch</a>
+                    </li>
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Giao thông">Giao thông</a>
+                    </li>
+                </ul>
+                <ul class="footer__menu-content">
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Startup">Startup</a>
+                    </li>
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Shop BViET">Shop BViET</a>
+                    </li>
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Mua ảnh BViET">Mua ảnh BViET</a>
+                    </li>
+                    <li class="footer__content-list">
+                        <a href="..." class="content-list-small" title="Vhome">Vhome</a>
+                    </li>
+                </ul>
+                <ul class="footer__menu-content--one">
+                    <li class="footer__content-list-final">
+                        <a href="..." class="content-list-small">Tải Ứng dụng</a>
+                    </li>
+                    <li class="footer__content-list-final logo__change">
+                        <button class="navbar__item-logo" title="Việt Báo - Trang tin tức Nhóm 13 thực hiện">
+                            <a href="..." class="navbar__logo-small">BViET</a>
+                        </button>
+                        <button class="navbar__item-logo-one" title="Việt Báo - Trang tin tức Nhóm 13 thực hiện">
+                            <a href="..." class="navbar__logo-small-one">BViET</a>
+                        </button>
+                    </li>
+                    <li class="footer__content-list-final">
+                        <a href="..." class="content-list-small">Liên hệ</a>
+                    </li>
+                    <li class="footer__content-list-final">
+                        <div class="content__list-icon">
+                            <button class="content__list-icon-one">
+                                <i class="far fa-envelope"></i>
+                            </button>
+                            <button class="content__list-icon-two">Tòa soạn</button>
+                            <button class="content__list-icon-three">Quảng cáo</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Menu Footer two -->
+            <div class="footer__menu-two">
+                <ul class="menu-content-one">
+                    <li class="footer__content-list-small">
+                        <h3 class="navbar-item" title="Việt Báo - Trang tin tức Nhóm 13 thực hiện">
+                            <a href="..." class="navbar__logo-small-two">BViET</a>
+                        </h3>
+                    </li>
+                </ul>
+                <ul class="menu-content-two">
+                    <li class="footer__content-list-small">
+                        <p class="content__samll-and-icon">Theo dõi BViET trên</p>
+                    </li>
+                </ul>
+                <ul class="menu__content-three">
+                    <button class="circle__1">
+                        <a class="icon__1" href="...">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </button>
+                    <button class="circle__2">
+                        <a class="icon__2" href="...">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </button>
+                    <button class="circle__3">
+                        <a class="icon__3" href="...">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </button>
+                </ul>
+            </div>
+            <!--Menu Footer three -->
+            <div class="footer__menu-three">
+                <ul class="menu__list-one">
+                    <p class="content___small color--change">Việt báo nhóm 13 thực hiện</p>
+                    <p class="content___small">Thuộc Đồ Án Thiết Kế Web</p>
+                    <p class="content___small">Số giấy phép: 09/GP-BTTUND ngày 11/07/2021</p>
+                </ul>
+                <ul class="menu__list-two">
+                    <p class="content___small">Người thực hiện: Lê Văn Đạt</p>
+                    <p class="content___small">Địa chỉ: Trường Đại học Bình Dương - TP Thủ Dầu 1</p>
+                    <p class="content___small">Điện thoại: 0123456789 - máy lẻ 5550</p>
+                </ul>
+                <ul class="menu__list-three">
+                    <li class="content___small">@.2002-2021. Toàn bộ bản quyền thuộc BViET</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
